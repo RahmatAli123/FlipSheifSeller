@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="8dp">
+
+        <EditText
+            android:id="@+id/name_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:hint="Full Name"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="8dp">
+
+        <EditText
+            android:id="@+id/email_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:hint="Email Address"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="8dp">
+
+        <EditText
+            android:id="@+id/password_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:hint="Password"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUp_Button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="sign Up"/>
+
+
+
+
+</LinearLayout>
